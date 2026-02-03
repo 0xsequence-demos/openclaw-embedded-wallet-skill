@@ -1,0 +1,12 @@
+{
+  "name": "sequence-waas-tools",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@0xsequence/waas": "^2.3.39",
+    "ethers": "^6.16.0",
+    "keytar": "^7.9.0",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-sealedbox-js": "^1.2.0"
+  }
+}

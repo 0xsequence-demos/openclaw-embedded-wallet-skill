@@ -1,0 +1,19 @@
+# Node
+node_modules/
+.pnpm-store/
+dist/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
+
+# macOS
+.DS_Store
+
+# OpenClaw local state
+state/
