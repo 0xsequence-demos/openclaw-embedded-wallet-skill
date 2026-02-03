@@ -32,7 +32,7 @@ Notes:
 - Config file: ~/.openclaw/secrets/sequence/waas.env
   - SEQUENCE_WAAS_PROJECT_ACCESS_KEY=...
   - SEQUENCE_WAAS_CONFIG_KEY=...
-  - (optional) SEQUENCE_WAAS_WORKER_URL=https://moltbot-wallet.taylanpince.workers.dev
+  - (optional) SEQUENCE_WAAS_WORKER_URL=https://<your-worker>.workers.dev
 
 Keychain:
 - service: ${SERVICE}

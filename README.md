@@ -144,10 +144,12 @@ Copy the skill folder into your OpenClaw workspace:
 cp -R openclaw-skill/moltbot /path/to/.openclaw/workspace/skills/
 ```
 
-The skill assumes the CLI lives at:
-`/Users/taylan/.openclaw/workspace/tools/sequence-waas/seq.mjs`
+### Path notes (make it path-agnostic)
+The skill references the CLI as:
 
-If you’re not Taylan, adjust paths in the skill accordingly.
+`<repo-root>/cli/sequence-waas/seq.mjs`
+
+When you install this skill into OpenClaw, keep the repo cloned somewhere stable and (if needed) adjust the CLI path inside `openclaw-skill/moltbot/SKILL.md` to match your local checkout.
 
 ## Security notes
 
